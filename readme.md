@@ -1,5 +1,6 @@
 #WARNING
 The newest version of the code requires "*potions.java*" for the health aspect.
+Must put *v2.java* before *potions.java* when compiling.
 
 #BUGS
 There is definitely bugs rampant. If you want, utilize the open-source and change what you hate [or fix the bugs].
