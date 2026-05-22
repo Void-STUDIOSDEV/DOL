@@ -8,4 +8,4 @@ Please notify^ me of any problems you have within the range of the code [not per
 
 
 
-^EMAIL IS "**n4llker3nel#protonmail.com**
+^EMAIL IS "**n4llker3nel#protonmail.com**"
