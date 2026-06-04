@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.Random;
-import java.util.Locale;
 
 public class v2 {
 	static int damage = 34;
@@ -23,7 +22,7 @@ public class v2 {
 			int achance = random.nextInt(5); // giving users a 1 in 5 chance to deal damage
 			int eachance = random.nextInt(3); // giving the enemy a 1 in 3 chance to deal damage
 			
-			System.out.println("\n[A]ttack or [H]eal? [E to EXIT]");
+			System.out.println("\n[A]ttack or [H]eal? [E to EXIT] / [D to DISPLAY HEALTH]");
 			System.out.printf("INPUT: ");
 			char a = Input.next().charAt(0);
 			char b = Character.toUpperCase(a);
@@ -61,7 +60,6 @@ public class v2 {
 			else if (b == 'H') {
 				potions.pot();
 			}
-			
 			
 			else if (b == 'E') {
 				System.out.println("\nA FIGHTER HAS SURRENDERED ...!\n");

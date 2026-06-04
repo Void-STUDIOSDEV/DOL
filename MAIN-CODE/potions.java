@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class potions {
 	// Public static variables so any external file can access them directly
@@ -16,6 +15,7 @@ public class potions {
 		while (true) {
 			if (phealth >= 80) {
 				System.out.println("WARNING: YOU HAVE TO MUCH HEALTH POINTS. YOU HAVE TO BE 80-HP TO USE POTIONS");
+				break;
 			}
 			
 			else if (phealth <= 80) {
