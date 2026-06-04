@@ -8,7 +8,10 @@ public class v2 {
 		Scanner Input = new Scanner(System.in);
 		Random random = new Random();
 
-		System.out.println("\nWelcome to Despair of Life");
+		System.out.println("\nWelcome to Dispair of Life");
+		Thread.sleep(1000);
+		System.out.println("Open-Source from the start!");
+		Thread.sleep(1000);
 		System.out.println("Version 2.00.00");
 		Thread.sleep(1000);
 		System.out.println("VOID STUDIOS GAMES' FIRST JAVA GAME!");
