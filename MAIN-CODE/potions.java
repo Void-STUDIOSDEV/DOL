@@ -35,6 +35,7 @@ public class potions {
 						System.out.println("Using potion!\n");
 						spotion -= 1;
 						phealth += spotion_amount;
+						System.out.println("HEALTH: " + phealth);
 						break;
 					}
 				}
@@ -49,6 +50,7 @@ public class potions {
 						System.out.println("Using potion!\n");
 						lpotion -= 1;
 						phealth += lpotion_amount;
+						System.out.println("HEALTH: " + phealth);
 						break;
 					}
 				}
